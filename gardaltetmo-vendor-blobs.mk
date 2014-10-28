@@ -30,34 +30,33 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardaltetmo/proprietary/vendor/firmware/setfile_4h5.bin:system/vendor/firmware/setfile_4h5.bin \
     vendor/samsung/gardaltetmo/proprietary/vendor/firmware/setfile_6a3.bin:system/vendor/firmware/setfile_6a3.bin \
     vendor/samsung/gardaltetmo/proprietary/vendor/firmware/setfile_6b2.bin:system/vendor/firmware/setfile_6b2.bin \
-    vendor/samsung/gardaltetmo/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/hw/audio.primary.goldfish.so:system/lib/hw/audio.primary.goldfish.so \
     vendor/samsung/gardaltetmo/proprietary/lib/hw/audio.primary.universal3470.so:system/lib/hw/audio.primary.universal3470.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
     vendor/samsung/gardaltetmo/proprietary/lib/hw/audio_policy.universal3470.so:system/lib/hw/audio_policy.universal3470.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/hw/camera.goldfish.jpeg.so:system/lib/hw/camera.goldfish.jpeg.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/hw/camera.goldfish.so:system/lib/hw/camera.goldfish.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/hw/gps.goldfish.so:system/lib/hw/gps.goldfish.so \
     vendor/samsung/gardaltetmo/proprietary/lib/hw/gralloc.exynos3.so:system/lib/hw/gralloc.exynos3.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/hw/lights.goldfish.so:system/lib/hw/lights.goldfish.so \
     vendor/samsung/gardaltetmo/proprietary/lib/hw/nfc.universal3470.so:system/lib/hw/nfc.universal3470.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/hw/power.goldfish.so:system/lib/hw/power.goldfish.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/hw/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so \
     vendor/samsung/gardaltetmo/proprietary/lib/hw/sensors.universal3470.so:system/lib/hw/sensors.universal3470.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/gardaltetmo/proprietary/lib/libakm.so:system/lib/libakm.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/libarcsoft_flawlessface.so:system/lib/libarcsoft_flawlessface.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/libarcsoft_skin_soften.so:system/lib/libarcsoft_skin_soften.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
-    vendor/samsung/gardaltetmo/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/libMali.so:system/lib/libMali.so \
     vendor/samsung/gardaltetmo/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     vendor/samsung/gardaltetmo/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/gardaltetmo/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/libExynosOMX263d.so:system/lib/libExynosOMX263d.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/libExynosOMX264d.so:system/lib/libExynosOMX264d.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/libExynosOMXCmn.so:system/lib/libExynosOMXCmn.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/libExynosOMXCore.so:system/lib/libExynosOMXCore.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/libExynosOMXMp4vd.so:system/lib/libExynosOMXMp4vd.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/omx/libOMX.Exynos.MP3.Decoder.so:system/lib/omx/libOMX.Exynos.MP3.Decoder.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/samsung/gardaltetmo/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
     vendor/samsung/gardaltetmo/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/samsung/gardaltetmo/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/samsung/gardaltetmo/proprietary/lib/egl/libGLESv2_mali.so:system/vendor/lib/egl/libGLESv2_mali.so \
@@ -74,7 +73,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardaltetmo/proprietary/vendor/lib/hw/power.exynos3.so:system/vendor/lib/hw/power.exynos3.so \
     vendor/samsung/gardaltetmo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/gardaltetmo/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/gardaltetmo/proprietary/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/gardaltetmo/proprietary/bin/lpm:system/bin/lpm \
+    vendor/samsung/gardaltetmo/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/samsung/gardaltetmo/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/gardaltetmo/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/gardaltetmo/proprietary/media/Disconnected.qmg:system/media/Disconnected.qmg \
@@ -115,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardaltetmo/proprietary/app/mcRegistry/ffffffff000000000000000000000018.tlbin:system/app/mcRegistry/ffffffff000000000000000000000018.tlbin \
     vendor/samsung/gardaltetmo/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/gardaltetmo/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
+    vendor/samsung/gardaltetmo/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
     vendor/samsung/gardaltetmo/proprietary/etc/wifi/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
     vendor/samsung/gardaltetmo/proprietary/etc/wifi/bcmdhd_mfg.bin_b2:system/etc/wifi/bcmdhd_mfg.bin_b2 \
     vendor/samsung/gardaltetmo/proprietary/etc/wifi/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
